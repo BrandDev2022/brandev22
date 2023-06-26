@@ -1,0 +1,19 @@
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+nav img {
+  width: 35%;
+}
+
+nav div {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.75rem;
+}

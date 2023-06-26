@@ -1,0 +1,11 @@
+{
+  "name": "brandev22",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/proto/Y9pNGqZ7F9ti6u12dTQDGQ/Untitled?node-id=1-2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
