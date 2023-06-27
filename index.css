@@ -20,6 +20,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color:white;
 }
 /*
   5. Improve media defaults
@@ -133,3 +134,37 @@ nav div {
 }
 
 /*-----------------Footer  Below-------------------------------------------*/
+footer {
+  height: 10rem;
+  background-color: #28282b;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  padding: 1%;
+}
+
+.social-media-icons{
+  display:flex;
+  
+
+}
+
+.social-media-icons img{
+  width:50px;
+
+}
+
+.brandLogo{
+  width:20%;
+ 
+}
+
+
+
+@media screen and (max-width: 800px) {
+  /* CSS styles to apply */
+  .about-content {
+    width:33%
+  }
+}
