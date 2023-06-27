@@ -156,7 +156,7 @@ nav div {
 
 /*-----------------------------------About Section Below------------------------------------------------*/
 
-.about-img-container {
+.img-after-header {
   border-top: 1px solid orange;
   background-image: url("./Media/about-img.jpg");
   height: 75vh;
@@ -164,21 +164,29 @@ nav div {
   background-size: cover;
 }
 
-.about-content {
-  border: 1px solid black;
-  border-radius: 15px;
-
-  width: 45%;
-  padding: 4%;
-  color: white;
-  background-color: #1e1e1e;
+#About {
+  display: flex;
+  justify-content: center;
 }
 
-.portrait-container img {
+.about-content {
+  border: 1px solid black;
+  border-radius: 25px;
+
+  width: 45%;
+  padding: 1%;
+  color: white;
+  background-color: #1e1e1e;
+  display: flex;
+}
+
+.about-content img {
   width: 50%;
+  border: 1px solid red;
 }
 
 .about-content p {
+  border: 1px solid red;
   font-size: 1.4rem;
   width: 50%;
 }
