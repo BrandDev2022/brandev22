@@ -164,7 +164,7 @@ nav div {
 #About {
   display: flex;
   justify-content: center;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
 }
 
 .about-content {
@@ -172,6 +172,7 @@ nav div {
   border-radius: 35px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   width: 50%;
+  height: 65vh;
   padding: 2%;
   color: white;
   background-color: #1e1e1e;
@@ -180,13 +181,15 @@ nav div {
 }
 
 .about-content img {
-  width: 40%;
+  width: 50%;
+
+  background-size: cover;
 }
 
 .about-content .paragraphs {
   width: 40%;
 }
 .paragraphs p {
-  font-size: 2rem;
+  font-size: 12px;
 }
 /*-----------------Footer  Below-------------------------------------------*/
