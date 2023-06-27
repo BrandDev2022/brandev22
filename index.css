@@ -127,9 +127,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-p {
-  font-size: x-small;
-}
 
 /* -----------------------------------Nav below------------------------------------------------- */
 
@@ -151,7 +148,7 @@ nav div {
   width: 35%;
   display: flex;
   justify-content: space-evenly;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 /*-----------------------------------About Section Below------------------------------------------------*/
@@ -167,28 +164,29 @@ nav div {
 #About {
   display: flex;
   justify-content: center;
+  transform: translateY(-50%);
 }
 
 .about-content {
   border: 1px solid black;
-  border-radius: 25px;
-
-  width: 45%;
-  padding: 1%;
+  border-radius: 35px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  padding: 2%;
   color: white;
   background-color: #1e1e1e;
   display: flex;
+  justify-content: space-around;
 }
 
 .about-content img {
-  width: 50%;
-  border: 1px solid red;
+  width: 40%;
 }
 
-.about-content p {
-  border: 1px solid red;
-  font-size: 1.4rem;
-  width: 50%;
+.about-content .paragraphs {
+  width: 40%;
 }
-
+.paragraphs p {
+  font-size: 2rem;
+}
 /*-----------------Footer  Below-------------------------------------------*/
