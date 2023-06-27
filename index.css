@@ -157,13 +157,18 @@ nav div {
 /*-----------------------------------About Section Below------------------------------------------------*/
 .about-img-container {
   border-top: 1px solid orange;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
+  background-image: url("./Media/about-img.jpg");
+  height: 75vh;
+  background-position: center center;
+  background-size: cover;
 }
 
-.about-img {
-  width: 100%;
+.portrait-container {
+  background-color: red;
+}
+
+.about-content {
+  border: 1px solid black;
 }
 
 /*-----------------Footer  Below-------------------------------------------*/
