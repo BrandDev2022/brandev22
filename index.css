@@ -167,14 +167,17 @@ footer {
  
 }
 
-footer div p{
-  
-  margin-left: 9%;
+.location-info{
+ 
+ padding-left: 10%;
   font-size: 0.8em;
   width: 100%
 
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 @media screen and (max-width: 900px) {
   /* CSS styles to apply */
@@ -219,7 +222,31 @@ footer div p{
 
   }
 
-  .brandlogo{
-    width:8%;
+  .brandLogo{
+    width:40%;
   }
+}
+
+@media screen and (max-width: 500px){
+.footer-container {
+width: 100%;
+
+}
+.footer-container div{
+  
+  width: 100%;
+}
+.brandLogo{
+  display: none;
+}
+.social-media-icons{
+  
+  width: 100%;
+  justify-content: center;
+
+}
+
+.location-info{
+  padding-left: 5%;
+}
 }
