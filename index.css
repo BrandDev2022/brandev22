@@ -106,13 +106,13 @@ nav div {
   border-radius: 35px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   width: 70%;
-  height: 35vh;
+  height: 90vh;
   padding: 2%;
   color: white;
   background-color: #1e1e1e;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   font-size: 2.5rem;
 }
 
@@ -128,25 +128,32 @@ nav div {
   justify-content: center;
 }
 
-.dynamic-txts {
+/* .dynamic-txts {
   line-height: 90px;
   height: 90px;
-  /* background: red; */
+  background: red;
   overflow: hidden;
-}
+} */
 
-.wrapper .static-txt {
-  /* border: 1px solid red; */
+/* .wrapper .static-txt {
+  border: 1px solid red;
   margin: 0;
-}
-.wrapper .dynamic-txts li {
-  /* border: 1px solid red; */
+} */
+/* .wrapper .dynamic-txts li {
+  border: 1px solid red;
   list-style: none;
   color: rgb(243, 137, 137);
   position: relative;
-}
+  animation: slide 9s steps(3) infinite;
+} */
 
-.dynamic-txts li::after {
+/* @keyframes slide {
+  100% {
+    top: -360px;
+  }
+} */
+
+/* .dynamic-txts li::after {
   content: "";
   position: absolute;
   left: 0;
@@ -155,8 +162,8 @@ nav div {
   border-left: 2px solid rgb(243, 137, 137);
   background-color: #1e1e1e;
   animation: typing 3s steps(11) infinite;
-}
-@keyframes typing {
+} */
+/* @keyframes typing {
   40%,
   60% {
     left: calc(100% + 30px);
@@ -164,7 +171,7 @@ nav div {
   100% {
     left: 0;
   }
-}
+} */
 
 /*-----------------Footer  Below-------------------------------------------*/
 footer {
