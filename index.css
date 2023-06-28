@@ -150,7 +150,7 @@ nav div {
   font-weight: 500;
   position: relative;
   top: 0;
-  animation: slide 12s steps(4) infinite;
+  animation: slide 9s steps(3) infinite;
 }
 
 .dynamic-txts li::after {
@@ -175,7 +175,7 @@ nav div {
 }
 @keyframes slide {
   100% {
-    top: -360px;
+    top: -270px;
   }
 }
 /*-----------------Footer  Below-------------------------------------------*/
