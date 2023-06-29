@@ -76,6 +76,7 @@ nav {
   top: 0;
   width: 100%;
   z-index: 9999;
+  border-bottom: 1px solid grey;
 }
 
 nav img {
@@ -109,7 +110,7 @@ nav div {
   border: 1px solid black;
   border-radius: 35px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  width: 60%;
+  width: 55%;
   height: 50vh;
   padding: 3%;
   color: white;
@@ -118,12 +119,12 @@ nav div {
   justify-content: center;
   align-items: center;
   font-size: 60px;
-  font-family: monospace;
+  font-family: "Ysabeau SC", sans-serif;
   font-weight: 400;
 }
 
 .about-content img {
-  width: 30%;
+  width: 25%;
   background-size: cover;
   border-radius: 200px;
   border: 1px solid whitesmoke;
