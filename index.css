@@ -121,6 +121,7 @@ nav div {
   font-size: 60px;
   font-family: "Ysabeau SC", sans-serif;
   font-weight: 400;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .about-content img {
@@ -184,6 +185,28 @@ nav div {
     top: -270px;
   }
 }
+
+/*---------------------Skills Section Below---------------------------*/
+#tech {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.tech-bar {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #1e1e1e;
+  width: 97%;
+  padding: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.tech-icon {
+  width: 150px;
+}
+
 /*-----------------Footer  Below-------------------------------------------*/
 footer {
   height: 10rem;
@@ -193,6 +216,7 @@ footer {
   padding: 2%;
   display: flex;
   justify-content: center;
+  border-top: 1px solid grey;
 }
 
 .footer-container {
