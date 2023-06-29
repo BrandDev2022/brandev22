@@ -292,7 +292,9 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-  /* CSS styles to apply */
+  .brand-logo {
+    width: 50%;
+  }
 
   .about-content {
     width: 100%;
@@ -336,15 +338,12 @@ a {
     border-radius: 0;
   }
 
-  /* .about-content img {
-    width: 80%;
-  } */
   .about-content .paragraphs {
     width: 80%;
   }
 
-  .brandLogo {
-    width: 40%;
+  #tech {
+    margin: 3% 0 3% 0;
   }
 
   .tech-icon {
@@ -354,6 +353,15 @@ a {
 }
 
 @media screen and (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    padding: 5%;
+    height: 15vh;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
   .BloomTech h2 {
     font-size: 1.4rem;
   }
